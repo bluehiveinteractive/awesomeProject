@@ -28,7 +28,7 @@ define('SECRET_ACCESS_TOKEN', 'SDH234sfjsSfk20295854ackiw2SCBN1285jcs8p');
  *
  * @var string
  */
-define('REMOTE_REPOSITORY', 'git@github.com:bluehiveinteractive/awesomeProject.git');
+define('REMOTE_REPOSITORY', 'https://github.com/bluehiveinteractive/awesomeProject.git');
 
 /**
  * The branch that's being deployed.
