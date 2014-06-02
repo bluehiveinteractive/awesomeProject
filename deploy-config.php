@@ -68,9 +68,7 @@ define('DELETE_FILES', false);
  * @var serialized array of strings
  */
 define('EXCLUDE', serialize(array(
-	'.git',
-	'webroot/uploads',
-	'app/config/database.php',
+	'.git'
 )));
 
 /**
@@ -81,7 +79,7 @@ define('EXCLUDE', serialize(array(
  *
  * @var string Full path including the trailing slash
  */
-define('TMP_DIR', '/tmp/spgd-'.md5(REMOTE_REPOSITORY).'/');
+define('TMP_DIR', '/home/bluehive/public_html/dev/tmp/spgd-'.md5(REMOTE_REPOSITORY).'/');
 
 /**
  * Whether to remove the TMP_DIR after the deployment.
@@ -131,4 +129,3 @@ define('USE_COMPOSER', false);
  * @link http://getcomposer.org/doc/03-cli.md#install
  */
 define('COMPOSER_OPTIONS', '--no-dev');
-
